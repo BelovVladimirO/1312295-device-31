@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Владимир Белов](https://up.htmlacademy.ru/htmlcss/31/user/1312295).
-* Наставник: [Евгений Петров] (https://htmlacademy.ru/profile/id617077)
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077)
 
 ---
 
