@@ -5,6 +5,236 @@
     <title>HTML Academy: Девайс</title>
  </head>
 <body>
+    <header>
+     
+        <nav>
+         
+          <a href="index.html"><img src="logo.png" alt="Логотип"></a>
+          <form action="" method="get">
+            <input name="s" placeholder="Поиск по сайту" type="search">
+          </form>
+            <ul>
+            <li><a href="#">Валентин Петухов</a></li>    
+            <li><a href="#">Выйти</a></li>
+            <li><a href="#">Сравнить</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+          <ul>
+            <li><a href="catalog.html">Каталог товаров</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контанты</a></li>
+          </ul>
+        
+        </nav>
+  
+      </header>
+
+      <main>
+          <h1>Моноподы для селфи</h1>
+
+          <ul>
+              <li>
+                <a href="index.html">Главная</a>
+              </li>
+              <li>
+                <a href="catalog.html">Каталог товаров</a>
+              </li>
+              <li>
+                Моноподы для селфи  
+              </li>
+         </ul>
+
+         <section>
+             <h2>Фильтр:</h2>
+             <form method="GET" action="https://echo.htmlacademy.ru/courses">
+                <fieldset>
+                    <legend>Стоимость</legend>
+                    <dl>
+                   
+                        <dt><input type="range" min="0" max="5000" step="1"></dt>
+                        <dd><label>от<input type="text" name="min-price" value="0"></label></dd>
+                        
+                    </dl>
+                    <dl>
+                        <dt><input type="range" min="0" max="5000" step="1"></dt> 
+                        <dd><label>до<input type="text" name="max-price" value="5000"></label></dd>
+                    </dl>
+                </fieldset>
+                <fieldset>
+                    <legend>Цвет</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="Black" id="filter-Black" checked>
+                            <label for="filter-Black">Чёрный</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="White" id="filter-White">
+                            <label for="filter-White">Белый</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Blue" id="filter-Blue" checked>
+                            <label for="filter-Blue">Синий</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Red" id="filter-Red" checked>
+                            <label for="filter-Red">Красный</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Pink" id="filter-Pink">
+                            <label for="filter-Pink">Розовый</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Bluetooth</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="Bluetooth" value="Choice-Yes" id="filter-Yes" checked>
+                            <label for="filter-Yes">Есть</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="Bluetooth" value="Choice-No" id="filter-No">
+                            <label for="filter-No">Нет</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">показать</button>
+             </form>
+         </section>
+
+         <section>
+             <h2>сортировка:</h2>
+             <ul>
+                <li>
+                    <button type="submit">По цене</button>
+                </li>
+                <li>
+                    <button type="submit">По типу</button>
+                </li>
+                <li>
+                    <button type="submit">По популярности</button>  
+                </li>
+                <li>
+                    <button type="submit"></button>  
+                </li>
+                <li>
+                    <button type="submit"></button>  
+                </li>
+           </ul>
+
+           <ul>
+               <li>
+                   <a href="#">
+                       <h3>Любительская селфи-палка</h3>
+                       <p>1 100 руб.</p>
+                   </a>
+                   <a href="#">в корзину</a>
+                   <a href="#">Добавить к сравнению</a>
+               </li>
+               <li>
+                <a href="#">
+                    <h3>Профессиональная селфи-палка </h3>
+                    <p>1 500 руб.</p>
+                </a>
+                <a href="#">в корзину</a>
+                <a href="#">Добавить к сравнению</a>
+               </li>
+               <li>
+                <a href="#">
+                    <h3>Непотопляемая селфи-палка</h3>
+                    <p>1 500 руб.</p>
+                </a>
+                <a href="#">в корзину</a>
+                <a href="#">Добавить к сравнению</a>
+               </li>
+               <li>
+                <a href="#">
+                    <h3>Селфи-палка «Следуй за мной»</h3>
+                    <p>1 900 руб.</p>
+                </a>
+                <a href="#">в корзину</a>
+                <a href="#">Добавить к сравнению</a>
+               </li>
+           </ul>
+
+           <ul>
+               <li>
+                   <a href="#">Назад</a>
+               </li>
+               <li>
+                <a>1</a>
+              </li>
+              <li>
+                <a href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">Вперед</a>
+            </li>
+
+           </ul>
+         </section>
+
+      </main>
+      <footer>
     
+        <a><img src="logo.png" alt="Логотип"></a>
+          
+          <section>
+    
+            <h2>Как нас найти</h2>
+           
+            <p>
+              Санкт-Петербург, набережная
+              реки Карповки, 5, литера П.
+            </p>
+         
+          </section>
+    
+          <section>
+    
+            <h2>Информация</h2>
+    
+            <ul>
+    
+              <li><a href="#">доставка</a></li>
+              <li><a href="#">гарантия</a></li>
+              <li><a href="#">контакты</a></li>
+              
+      
+            </ul>
+    
+            <ul>
+    
+              <li><a href="#">Фейсбук</a></li>
+              <li><a href="#">Инстаграмм</a></li>
+              <li><a href="#">Твиттер</a></li>
+              
+      
+            </ul>
+    
+          </section>
+    
+          <section>
+           
+            <h2>Контакты</h2>
+    
+            <ul>
+              <li><a href="#">Валентин Петухов</a></li> 
+              <li><a href="#">Выйти</a></li>
+              <li><a href="#">Сравнить</a></li>
+              <li><a href="#">Корзина</a></li>
+            </ul>
+           
+            <a>Тел.: +7 800 555-86-28</a>
+          
+            <a href="#">htmlacademy</a>
+    
+          </section>
+    
+      </footer>
 </body>
 </html>
