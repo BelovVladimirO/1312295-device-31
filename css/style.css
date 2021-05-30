@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("\fonts\opensans.woff2") format("woff2"),
+  url("\fonts\opensans.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("\fonts\"opensanslight.woff2") format("woff2"),
+  url("\fonts\"opensanslight.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  src: url("\fonts\"gilroylight.woff2") format("woff2"),
+  url("\fonts\"opensanslight.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  src: url("\fonts\"gilroyextrabold.woff2") format("woff2"),
+  url("\fonts\"gilroyextrabold.woff") format("woff");
+}
+
+
+/* Variables */
+:root {
+  --basic-black: #000000;
+  --basic-dark: #363636;
+  --basic-grey: #464646;
+  --basic-half-grey: #7e7e7e;
+  --basic-grey-light: #e5e5e5;
+  --basic-white: #FFFFFF;
+
+  --special-yellow-dark: #f0c52e;
+  --special: #f7e296;
+  --special-green: #91c92f;
+  --special: #f6dada;
+}
+
+
+
+
+/* Global*/
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family:"Gilroy","Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.main-header{
+  background: #F7E296;
+}
+input::-webkit-input-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #7e7e7e;
+}
+.search:hover::placeholder{
+  color:#464646 ;
+}
+
+.list-nav {
+  list-style: none;
+}
+.list-nav a{
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color:#000000;
+}
+.list-nav a:hover{
+  color: #464646;
+}
+.list-nav a:focus{
+  color: #7e7e7e;
+}
+.site-navigation{
+  list-style: none;
+}
+.site-navigation a {
+  font-family:"Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+.site-navigation a:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.site-navigation a:focus{
+  color: #000000;
+  opacity: 0.3;
+}
+.quadrocopter h2{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+}
+.quadrocopter p{
+  font-family:"Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.button{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+.features dt{
+  font-family: "Gilroy";
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+.features dd{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.list-of-products{
+  list-style: none;
+}
+.product-button{
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.product-button:hover{
+  color: #000000;
+}
+.product-button:active{
+  color: #000000;
+  opacity: 0.3;
+}
+.services{
+  list-style: none;
+}
+.services a{
+  text-decoration: none;
+}
+.services-button{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.services-button:hover{
+  color: #000000;
+}
+.services-button:active{
+  color:#F7E296 ;
+}
+.delivery{
+  background: #E5E5E5;
+}
+.delivery h2{
+  font-family:"Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+  color: #000000;
+}
+.delivery p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.about-us h2{
+  font-family:"Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+  color: #000000;
+}
+.about-us p{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.transport-companies a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.map h2{
+  font-family:"Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+  color: #000000;
+}
+.map p{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.main-footer{
+  background: #363636;
+}
+.footer-address p{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer-navigation{
+  list-style: none;
+}
+.footer-navigation a{
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+ text-transform: uppercase;
+ color: #FFFFFF;
+}
+.footer-navigation a:hover{
+  color:rgba(255, 255, 255, 0.6);
+}
+.footer-navigation a:active{
+  color:rgba(255, 255, 255, 0.3);
+}
+.footer-list-nav{
+  list-style: none;
+}
+.footer-list-nav a{
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color:rgba(255, 255, 255, 0.7);;
+}
+.footer-list-nav a:hover{
+  color:#FFFFFF;
+}
+.footer-list-nav a:active{
+  color:rgba(255, 255, 255, 0.3);
+}

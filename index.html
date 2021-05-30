@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link rel="icon" href="favicon.ico">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <nav>
-        <a><img src="logo.png" alt="Логотип"></a>
-        <form action="" method="get">
-          <input name="s" placeholder="Поиск по сайту" type="search">
+  <body class="pade-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo"><img src="logo.png" alt="Логотип"></a>
+        <form  action="" method="get">
+          <input class="search" name="s" placeholder="Поиск по сайту" type="search">
         </form>
-          <ul>
+          <ul class="list-nav">
           <li><a href="#">Войти</a></li>
           <li><a href="#">Сравнить</a></li>
           <li><a href="№">Корзина</a></li>
         </ul>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="catalog.html">Каталог товаров</a></li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
@@ -26,154 +27,154 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <h1>Интернет-магазин "Девайс"</h1>
-      <section>
+      <section class="quadrocopter">
       <h2>Квадрокоптер</h2>
         <a href="#">
           <img src="img/slider-3_1.jpg" width="100" height="50" alt="Квадрокоптеры">
         </a>
       <h2>Порхает как бабочка, жалит как пчела!</h2>
-      <p>Этот обычный, на первый взгляд, квадрокоптер оснащен 
+      <p>Этот обычный, на первый взгляд, квадрокоптер оснащен
         мощным лазером, замаскированным под стандартную камеру.
       </p>
-      <a href="#">Подробнее</a>
-        <button type="button" name ="Slide"></button>
-        <button type="button" name ="Slide"></button>
-        <button type="button" name ="Slide"></button>
-      <dl>
+      <a class="button" href="#">Подробнее</a>
+        <button class="slide" type="button" name ="Slide"></button>
+        <button class="slide" type="button" name ="Slide"></button>
+        <button class="slide" type="button" name ="Slide"></button>
+      <dl class="features">
         <dt>800 м</dt>
         <dd>Дальность полёта</dd>
         <dt>500 м</dt>
         <dd>Радиус поражения</dd>
       </dl>
       </section>
-    <section>
+    <section class="products">
       <h2>Товары</h2>
-      <ul>
-        <li><a href="#">Виртуальная реальность</a></li>
-        <li><a href="#">Моноподы для селфи</a></li>
-        <li><a href="#">Экшн-камеры</a></li>
-        <li><a href="#">Фитнес-браслеты</a></li>
-        <li><a href="#">Умные часы</a></li>
-        <li><a href="#">Квадрокоптеры</a></li>
+      <ul class="list-of-products">
+        <li><a class="product-button" href="#">Виртуальная реальность</a></li>
+        <li><a class="product-button" href="#">Моноподы для селфи</a></li>
+        <li><a class="product-button" href="#">Экшн-камеры</a></li>
+        <li><a class="product-button" href="#">Фитнес-браслеты</a></li>
+        <li><a class="product-button" href="#">Умные часы</a></li>
+        <li><a class="product-button" href="#">Квадрокоптеры</a></li>
       </ul>
     </section>
 
-    <section>
+    <section class="information">
       <h2>Информация</h2>
-      <ul>
-        <li><a href="#">доставка</a></li>
-        <li><a href="#">гарантия</a></li>
-        <li><a href="#">кредит</a></li>
+      <ul class="services">
+        <li><a class="services-button" href="#">доставка</a></li>
+        <li><a class="services-button" href="#">гарантия</a></li>
+        <li><a class="services-button" href="#">кредит</a></li>
       </ul>
-     
+
     </section>
 
-    <section>
+    <section class="delivery">
       <h2>Доставка</h2>
       <p>
         Мы с удовольствием доставим ваш товар прямо к вашему<br>
-        подъезду совершенно бесплатно! Ведь мы неплохо<br> 
+        подъезду совершенно бесплатно! Ведь мы неплохо<br>
         заработаем, поднимая его на ваш этаж.
       </p>
-           
+
     </section>
 
-    <section>
+    <section class="logos">
       <h2>Логотипы</h2>
-      <ul>
-        <li><a><img src="logo.png" alt="Логотип"></a></li>
-        <li><a><img src="logo.png" alt="Логотип"></a></li>
-        <li><a><img src="logo.png" alt="Логотип"></a></li>
-        <li><a><img src="logo.png" alt="Логотип"></a></li>
-       
+      <ul class="list-of-logos">
+        <li><a class="main-logos"><img src="logo.png" alt="Логотип"></a></li>
+        <li><a class="main-logos"><img src="logo.png" alt="Логотип"></a></li>
+        <li><a class="main-logos"><img src="logo.png" alt="Логотип"></a></li>
+        <li><a class="main-logos"><img src="logo.png" alt="Логотип"></a></li>
+
       </ul>
-      
+
     </section>
 
-    <section>
+    <section class="about-us">
 
       <h2>О нас</h2>
-      
+
       <p>
-        Огромный выбор гаджетов не оставит равнодушным гика,<br> 
+        Огромный выбор гаджетов не оставит равнодушным гика,<br>
         который есть в каждом из нас.
       </p>
 
       <p>
-        Мы можем доставить ваш товар в самые отдаленные точки<br> 
+        Мы можем доставить ваш товар в самые отдаленные точки<br>
         России! DEVICE работает со многими транспортными компаниями:
       </p>
 
-      <ul>
+      <ul class="transport-companies">
         <li><a href="#">Деловые линии</a></li>
         <li><a href="#">Автотрейдинг</a></li>
         <li><a href="#">ЖелДорЭкспедиция</a></li>
-       
+
       </ul>
-      <a href="#">Подробнее о нас</a>
-            
+      <a class="button" href="#">Подробнее о нас</a>
+
     </section>
 
-    <section>
+    <section class="map">
       <h2>Контакты</h2>
 
       <p>
-        Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br> 
+        Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
         проверить работоспособность покупки. Всякое бывает.
       </p>
 
-      <a href="#">Напишите нам</a>
-    
+      <a class="button" href="#">Напишите нам</a>
+
     </section>
 
   </main>
 
-  <footer>
-    
-    <a><img src="logo.png" alt="Логотип"></a>
-      
-      <section>
+  <footer class="main-footer">
+
+    <a class="footer-logo"><img src="logo.png" alt="Логотип"></a>
+
+      <section class="footer-address">
 
         <h2>Как нас найти</h2>
-       
+
         <p>
           Санкт-Петербург, набережная
           реки Карповки, 5, литера П.
         </p>
-     
+
       </section>
 
-      <section>
+      <section class="footer-info">
         <h2>Информация</h2>
-        <ul>
+        <ul class="footer-navigation">
           <li><a href="#">доставка</a></li>
           <li><a href="#">гарантия</a></li>
           <li><a href="#">контакты</a></li>
-          
+
         </ul>
 
-        <ul>
-          <li><a href="#">Фейсбук</a></li>
-          <li><a href="#">Инстаграмм</a></li>
-          <li><a href="#">Твиттер</a></li>
-            
+        <ul class="footer-socials">
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграмм</a></li>
+          <li><a class="social-button" href="#">Твиттер</a></li>
+
         </ul>
 
       </section>
 
-      <section>
+      <section class="footer-contacts">
         <h2>Контакты</h2>
-        <ul>
-          <li><a href="#">Войти</a></li>
-          <li><a href="#">Сравнить</a></li>
-          <li><a href="#">Корзина</a></li>
+        <ul class="footer-list-nav">
+          <li><a class="list-nav-button" href="#">Войти</a></li>
+          <li><a class="list-nav-button" href="#">Сравнить</a></li>
+          <li><a class="list-nav-button" href="#">Корзина</a></li>
         </ul>
-       
-        <a href='mailto:78005558628'>Тел.: +7 800 555-86-28</a>
-      
-        <a href="#">htmlacademy</a>
+
+        <a class="contacts-phone" href='mailto:78005558628'>Тел.: +7 800 555-86-28</a>
+
+        <a class="htmlacademy" href="#">htmlacademy</a>
 
       </section>
 
