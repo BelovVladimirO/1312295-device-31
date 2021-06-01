@@ -1,30 +1,30 @@
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 300;
-  src: url("\fonts\opensans.woff2") format("woff2"),
-  url("\fonts\opensans.woff") format("woff");
+  font-weight: 400;
+  src: url(/fonts/opensans.woff2) format("woff2"),
+  url(/fonts/opensans.woff) format("woff");
 }
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
-  src: url("\fonts\"opensanslight.woff2") format("woff2"),
-  url("\fonts\"opensanslight.woff") format("woff");
+  src: url(/fonts/opensanslight.woff2) format("woff2"),
+  url(/fonts/opensanslight.woff) format("woff");
 }
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
-  src: url("\fonts\"gilroylight.woff2") format("woff2"),
-  url("\fonts\"opensanslight.woff") format("woff");
+  src: url(/fonts/gilroylight.woff2) format("woff2"),
+  url(/fonts/opensanslight.woff) format("woff");
 }
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
-  src: url("\fonts\"gilroyextrabold.woff2") format("woff2"),
-  url("\fonts\"gilroyextrabold.woff") format("woff");
+  src: url(/fonts/gilroyextrabold.woff2) format("woff2"),
+  url(/fonts/gilroyextrabold.woff) format("woff");
 }
 
 
@@ -40,7 +40,7 @@
   --special-yellow-dark: #f0c52e;
   --special: #f7e296;
   --special-green: #91c92f;
-  --special: #f6dada;
+  --status:#F6DADA;
 }
 
 
@@ -52,7 +52,7 @@ body {
   min-width: 960px;
   margin: 0;
   padding: 0;
-  font-family:"Gilroy","Open Sans", Arial, sans-serif;
+  font-family:"Open Sans", "Gilroy" Arial, sans-serif;
   font-size: 15px;
   line-height: 28px;
   font-weight: 300;
@@ -62,7 +62,7 @@ body {
   background: #F7E296;
 }
 input::-webkit-input-placeholder {
-  font-family: "Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -74,21 +74,19 @@ input::-webkit-input-placeholder {
 }
 
 .list-nav {
-  list-style: none;
-}
-.list-nav a{
   text-decoration: none;
-  font-family: "Open Sans";
+  list-style: none;
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color:#000000;
 }
-.list-nav a:hover{
+.list-nav:hover{
   color: #464646;
 }
-.list-nav a:focus{
+.list-nav:focus{
   color: #7e7e7e;
 }
 .site-navigation{
@@ -122,7 +120,7 @@ input::-webkit-input-placeholder {
   color: #000000;
 }
 .quadrocopter p{
-  font-family:"Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -150,7 +148,7 @@ letter-spacing: 0.1em;
 color: #000000;
 }
 .features dd{
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
@@ -213,7 +211,7 @@ color: #000000;
   color: #000000;
 }
 .delivery p{
-  font-family: Open Sans;
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -231,7 +229,7 @@ color: #000000;
   color: #000000;
 }
 .about-us p{
-  font-family: "Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -258,7 +256,7 @@ color: #000000;
   color: #000000;
 }
 .map p{
-  font-family: "Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -270,7 +268,7 @@ color: #000000;
   background: #363636;
 }
 .footer-address p{
-  font-family: "Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -297,21 +295,53 @@ color: #000000;
 .footer-navigation a:active{
   color:rgba(255, 255, 255, 0.3);
 }
-.footer-list-nav{
+
+.footer-list-nav {
   list-style: none;
-}
-.footer-list-nav a{
   text-decoration: none;
-  font-family: "Open Sans";
+  font-family:inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color:rgba(255, 255, 255, 0.7);;
 }
-.footer-list-nav a:hover{
+.footer-list-nav:hover{
   color:#FFFFFF;
 }
-.footer-list-nav a:active{
+.footer-list-nav:active{
   color:rgba(255, 255, 255, 0.3);
 }
+.bracelet h2{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+}
+.bracelet p{
+  font-family:inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.selfie-stick h2{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+}
+.selfie-stick p{
+  font-family:inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
