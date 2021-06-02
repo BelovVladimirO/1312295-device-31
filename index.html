@@ -5,6 +5,7 @@
     <title>HTML Academy: Девайс</title>
     <link rel="icon" href="favicon.ico">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body class="pade-body">
     <header class="main-header">
@@ -12,7 +13,7 @@
         <a class="main-header-logo"><img src="logo.png" alt="Логотип"></a>
         <form  action="" method="get">
           <input class="search" name="search" placeholder="Поиск по сайту" type="search">
-          <button type="button">Найти</button>
+          <button class="search-button"  type="button">Найти</button>
         </form>
           <a class="list-nav" href="#">Войти</a>
           <a class="list-nav" href="#">Сравнить</a>
@@ -38,7 +39,7 @@
       <p>Этот обычный, на первый взгляд, квадрокоптер оснащен
         мощным лазером, замаскированным под стандартную камеру.
       </p>
-      <a class="button" href="#">Подробнее</a>
+      <a class="button" href="#"><span class="effect">Подробнее</span></a>
         <button class="slide" type="button"></button>
         <button class="slide" type="button"></button>
         <button class="slide" type="button"></button>
@@ -49,6 +50,44 @@
         <dd>Радиус поражения</dd>
       </dl>
       </section>
+
+      <section class="bracelet">
+        <h2>Фитнес браслет</h2>
+          <a href="#">
+            <img src="img/slider-2_1.jpg" width="100" height="50" alt="Браслет">
+          </a>
+        <h2>Худеем правильно!</h2>
+        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
+          не пропускать занятия и соблюдать диету.
+        </p>
+        <a class="button" href="#">Подробнее</a>
+
+        <dl class="features">
+          <dt>48 часов</dt>
+          <dd>Без подзарядки</dd>
+        </dl>
+        </section>
+
+        <section class="selfie-stick">
+          <h2>Палка для селфи</h2>
+            <a href="#">
+              <img src="img/slider-1_1.jpg" width="100" height="50" alt="Палка для селфи">
+            </a>
+          <h2>Делай селфи,как Бен Стиллер! </h2>
+          <p>Самая длинная палка для селфи доступна в нашем магазине.
+            Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+          </p>
+          <a class="button" href="#">Подробнее</a>
+
+          <dl class="features">
+            <dt>8,5 м<dt>
+            <dd>Длина палки</dd>
+            <dt>5 кг</dt>
+            <dd>Вес палки</dd>
+            <dt>Карбон</dt>
+            <dd>Материал</dd>
+          </dl>
+          </section>
     <section class="products">
       <h2>Товары</h2>
       <ul class="list-of-products">
@@ -78,16 +117,33 @@
         подъезду совершенно бесплатно! Ведь мы неплохо<br>
         заработаем, поднимая его на ваш этаж.
       </p>
-
     </section>
+
+    <section class="delivery-warranty-credit">
+      <h2>Гарантия</h2>
+      <p>
+        Если из-за возгорания купленного у нас товара у вас сгорит дом —<br>
+        не переживайте, мы выдадим вам новый.<br>
+        Товар, не дом, конечно же.
+      </p>
+    </section>
+
+    <section class="delivery-warranty-credit">
+        <h2>Кредит</h2>
+        <p>
+          Залезть в долговую яму стало проще! Кредитные консультанты<br>
+          подберут для вас наиболее выгодные<br>
+          условия кредита. Выгодные для нашего банка, разумеется.
+        </p>
+      </section>
 
     <section class="logos">
       <h2>Логотипы</h2>
       <ul class="list-of-logos">
-        <li><a class="partners-logos"><img src="logo.png" alt="Логотип"></a></li>
-        <li><a class="partners-logos"><img src="logo.png" alt="Логотип"></a></li>
-        <li><a class="partners-logos"><img src="logo.png" alt="Логотип"></a></li>
-        <li><a class="partners-logos"><img src="logo.png" alt="Логотип"></a></li>
+        <li><a class="partners-logos"><img src="img/logo-1_1.svg" alt="Логотип"></a></li>
+        <li><a class="partners-logos"><img src="img/logo-2_1.svg" alt="Логотип"></a></li>
+        <li><a class="partners-logos"><img src="img/logo-3_1.svg" alt="Логотип"></a></li>
+        <li><a class="partners-logos"><img src="img/logo-4_1.svg" alt="Логотип"></a></li>
 
       </ul>
 
@@ -171,65 +227,9 @@
 
         <a class="contacts-phone" href="mailto:78005558628">Тел.: +7 800 555-86-28</a>
 
-        <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">html academy</a>
+        <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 
       </section>
-
-  </footer>
-  <section class="bracelet">
-    <h2>Фитнес браслет</h2>
-      <a href="#">
-        <img src="img/slider-2_1.jpg" width="100" height="50" alt="Браслет">
-      </a>
-    <h2>Худеем правильно!</h2>
-    <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
-      не пропускать занятия и соблюдать диету.
-    </p>
-    <a class="button" href="#">Подробнее</a>
-
-    <dl class="features">
-      <dt>48 часов</dt>
-      <dd>Без подзарядки</dd>
-    </dl>
-    </section>
-
-    <section class="selfie-stick">
-      <h2>Палка для селфи</h2>
-        <a href="#">
-          <img src="img/slider-1_1.jpg" width="100" height="50" alt="Палка для селфи">
-        </a>
-      <h2>Делай селфи,как Бен Стиллер! </h2>
-      <p>Самая длинная палка для селфи доступна в нашем магазине.
-        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
-      </p>
-      <a class="button" href="#">Подробнее</a>
-
-      <dl class="features">
-        <dt>8,5 м<dt>
-        <dd>Длина палки</dd>
-        <dt>5 кг</dt>
-        <dd>Вес палки</dd>
-        <dt>Карбон</dt>
-        <dd>Материал</dd>
-      </dl>
-      </section>
-
-      <section class="delivery-warranty-credit">
-        <h2>Гарантия</h2>
-        <p>
-          Если из-за возгорания купленного у нас товара у вас сгорит дом —<br>
-          не переживайте, мы выдадим вам новый.<br>
-          Товар, не дом, конечно же.
-        </p>
-      </section>
-
-      <section class="delivery-warranty-credit">
-          <h2>Кредит</h2>
-          <p>
-            Залезть в долговую яму стало проще! Кредитные консультанты<br>
-            подберут для вас наиболее выгодные<br>
-            условия кредита. Выгодные для нашего банка, разумеется.
-          </p>
-        </section>
-  </body>
+ </footer>
+    </body>
 </html>

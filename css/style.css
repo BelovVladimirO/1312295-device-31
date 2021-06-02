@@ -71,6 +71,40 @@ input::-webkit-input-placeholder {
 .search:hover::placeholder{
   color:#464646 ;
 }
+.search:focus::placeholder{
+  color: #000000;
+}
+.search-button:hover{
+  background:#000000;
+  color: #e5e5e5;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.search-button:active{
+  background:#000000;
+  color: #e5e5e5;
+  opacity: 0.3;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.search-button{
+  background:#F7E296;;
+  color:  #000000;;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
 
 .list-nav {
   text-decoration: none;
@@ -125,6 +159,21 @@ input::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
+}
+.effect{
+
+}
+.effect:hover{
+  border-style:solid;
+  border-color:#f0c52e;
+  background:#f0c52e;
+}
+.effect:active{
+  border-style:solid;
+  border-color:#f0c52e;
+  background:#f0c52e;
+  color: #000000;
+  opacity: 0.3;
 }
 .button{
   font-family: "Gilroy";
@@ -190,17 +239,23 @@ color: #000000;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  
 }
 .services-button:hover{
-  color: #000000;
+  border-style:solid;
+  border-color:#f0c52e;
+  background:#f0c52e;
 }
 .services-button:active{
+  border-style:solid;
+  border-color:#000000;;
+  background:#000000;;
   color:#F7E296 ;
 }
-.delivery{
+.delivery-warranty-credit{
   background: #E5E5E5;
 }
-.delivery h2{
+.delivery-warranty-credit h2{
   font-family:"Gilroy";
   font-style: normal;
   font-weight: 800;
@@ -209,7 +264,7 @@ color: #000000;
   letter-spacing: 0.2em;
   color: #000000;
 }
-.delivery p{
+.delivery-warranty-credit p{
   font-family:inherit;
   font-style: normal;
   font-weight: 300;
