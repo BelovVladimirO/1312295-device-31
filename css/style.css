@@ -396,4 +396,249 @@ color: #000000;
   line-height: 20px;
   color: #000000;
 }
+/*Catalog*/
+.container-catalog h1{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+}
+.bread-crumbs li{
+  font-family:inherit ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.3;
+  text-decoration: none;
+  list-style: none;
+}
+.bread-crumbs a{
+  text-decoration: none;
+  font-family:inherit ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.3;
+}
+.bread-crumbs li:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.bread-crumbs li:active{
+  color: #000000;
+  opacity: 0.1;
+}
+.bread-crumbs a:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.bread-crumbs a:active{
+  color: #000000;
+  opacity: 0.1;
+}
+.filter h2{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.filter legend{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.filter label{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.colour legend{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.colour label{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.bluetooth legend{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.bluetooth label{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
 
+.sorting a{
+  text-decoration: none;
+}
+.sorting h2{
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.sorting li{
+  list-style: none;
+}
+.sorting-price-type-popularity{
+  text-decoration: none;
+  font-family:inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.3;
+}
+.sorting-price-type-popularity:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.sorting-price-type-popularity:active{
+  color: #000000;
+}
+.add-to-comparison{
+  text-decoration: none;
+  font-family:inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  opacity: 0.5;
+}
+.add-to-comparison:hover{
+  color: #000000;
+}
+.add-to-comparison:active{
+  color: #000000;
+  opacity: 0.2;
+}
+.product-cards h3{
+  font-family:"Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.product-cards p{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.back{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.one{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.3;
+}
+.one:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.one:active{
+ color: #000000;
+}
+.two{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.3;
+}
+.two:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.two:active{
+ color: #000000;
+}
+.three{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.3;
+}
+.three:hover{
+  color: #000000;
+  opacity: 0.6;
+}
+.three:active{
+ color: #000000;
+}
+
+.forward{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
