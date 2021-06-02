@@ -160,9 +160,7 @@ input::-webkit-input-placeholder {
   line-height: 20px;
   color: #000000;
 }
-.effect{
 
-}
 .effect:hover{
   border-style:solid;
   border-color:#f0c52e;
@@ -239,7 +237,7 @@ color: #000000;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
-  
+
 }
 .services-button:hover{
   border-style:solid;
