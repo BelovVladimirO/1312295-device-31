@@ -3,30 +3,29 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/opensans.woff2") format("woff2"),
-  url("../fonts/opensans.woff") format("woff");
+    url("../fonts/opensans.woff") format("woff");
 }
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/opensanslight.woff2") format("woff2"),
-  url("../fonts/opensanslight.woff") format("woff");
+    url("../fonts/opensanslight.woff") format("woff");
 }
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/opensanslight.woff2") format("woff2"),
-  url("../fonts/gilroylight.woff") format("woff");
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+    url("../fonts/gilroylight.woff") format("woff");
 }
 @font-face {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
-  url("../fonts/gilroyextrabold.woff") format("woff");
+    url("../fonts/gilroyextrabold.woff") format("woff");
 }
-
 
 /* Variables */
 :root {
@@ -35,16 +34,13 @@
   --basic-grey: #464646;
   --basic-half-grey: #7e7e7e;
   --basic-grey-light: #e5e5e5;
-  --basic-white: #FFFFFF;
+  --basic-white: #ffffff;
 
   --special-yellow-dark: #f0c52e;
   --special: #f7e296;
   --special-green: #91c92f;
-  --status:#F6DADA;
+  --status: #f6dada;
 }
-
-
-
 
 /* Global*/
 
@@ -52,31 +48,31 @@ body {
   min-width: 960px;
   margin: 0;
   padding: 0;
-  font-family:"Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 28px;
   font-weight: 300;
-  }
-.main-header{
-  background: #F7E296;
+}
+.main-header {
+  background: #f7e296;
 }
 input::-webkit-input-placeholder {
-  font-family:inherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color: #7e7e7e;
 }
-.search:hover::placeholder{
-  color:#464646 ;
+.search:hover::placeholder {
+  color: #464646;
 }
-.search:focus::placeholder{
+.search:focus::placeholder {
   color: #000000;
 }
-.search-button:hover{
-  background:#000000;
-  color: #e5e5e5;
+.search-button {
+  background: #f7e296;
+  color: #000000;
   font-family: inherit;
   font-style: normal;
   font-weight: 300;
@@ -84,49 +80,37 @@ input::-webkit-input-placeholder {
   line-height: 20px;
   text-transform: uppercase;
 }
-.search-button:active{
-  background:#000000;
+.search-button:hover {
+  background: #000000;
+  color: #e5e5e5;
+}
+.search-button:active {
+  background: #000000;
   color: #e5e5e5;
   opacity: 0.3;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
-.search-button{
-  background:#F7E296;;
-  color:  #000000;;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 20px;
-  text-transform: uppercase;
 }
 
 .list-nav {
   text-decoration: none;
   list-style: none;
-  font-family:inherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
-  color:#000000;
+  color: #000000;
 }
-.list-nav:hover{
+.list-nav:hover {
   color: #464646;
 }
-.list-nav:focus{
+.list-nav:focus {
   color: #7e7e7e;
 }
-.site-navigation{
+.site-navigation {
   list-style: none;
 }
 .site-navigation a {
-  font-family:"Gilroy" Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -136,24 +120,24 @@ input::-webkit-input-placeholder {
   text-decoration: none;
   color: #000000;
 }
-.site-navigation a:hover{
+.site-navigation a:hover {
   color: #000000;
   opacity: 0.6;
 }
-.site-navigation a:focus{
+.site-navigation a:focus {
   color: #000000;
   opacity: 0.3;
 }
-.quadrocopter h2{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.quadrocopter h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
   color: #000000;
 }
-.quadrocopter p{
-  font-family:inherit;
+.quadrocopter p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -161,20 +145,20 @@ input::-webkit-input-placeholder {
   color: #000000;
 }
 
-.effect:hover{
-  border-style:solid;
-  border-color:#f0c52e;
-  background:#f0c52e;
+.effect:hover {
+  border-style: solid;
+  border-color: #f0c52e;
+  background: #f0c52e;
 }
-.effect:active{
-  border-style:solid;
-  border-color:#f0c52e;
-  background:#f0c52e;
+.effect:active {
+  border-style: solid;
+  border-color: #f0c52e;
+  background: #f0c52e;
   color: #000000;
   opacity: 0.3;
 }
-.button{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.button {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -184,17 +168,17 @@ input::-webkit-input-placeholder {
   text-decoration: none;
   color: #000000;
 }
-.features dt{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.1em;
-color: #000000;
+.features dt {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #000000;
 }
-.features dd{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.features dd {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
@@ -202,12 +186,12 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.list-of-products{
+.list-of-products {
   list-style: none;
 }
-.product-button{
+.product-button {
   text-decoration: none;
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -215,21 +199,21 @@ color: #000000;
   letter-spacing: 0.05em;
   color: #000000;
 }
-.product-button:hover{
+.product-button:hover {
   color: #000000;
 }
-.product-button:active{
+.product-button:active {
   color: #000000;
   opacity: 0.3;
 }
-.services{
+.services {
   list-style: none;
 }
-.services a{
+.services a {
   text-decoration: none;
 }
-.services-button{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.services-button {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -237,24 +221,23 @@ color: #000000;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
-
 }
-.services-button:hover{
-  border-style:solid;
-  border-color:#f0c52e;
-  background:#f0c52e;
+.services-button:hover {
+  border-style: solid;
+  border-color: #f0c52e;
+  background: #f0c52e;
 }
-.services-button:active{
-  border-style:solid;
-  border-color:#000000;;
-  background:#000000;;
-  color:#F7E296 ;
+.services-button:active {
+  border-style: solid;
+  border-color: #000000;
+  background: #000000;
+  color: #f7e296;
 }
-.delivery-warranty-credit{
-  background: #E5E5E5;
+.delivery-warranty-credit {
+  background: #e5e5e5;
 }
-.delivery-warranty-credit h2{
-  font-family:"Gilroy" Arial, Helvetica, sans-serif;
+.delivery-warranty-credit h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
@@ -262,8 +245,8 @@ color: #000000;
   letter-spacing: 0.2em;
   color: #000000;
 }
-.delivery-warranty-credit p{
-  font-family:inherit;
+.delivery-warranty-credit p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -271,8 +254,8 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.about-us h2{
-  font-family:"Gilroy" Arial, Helvetica, sans-serif;
+.about-us h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
@@ -280,8 +263,8 @@ color: #000000;
   letter-spacing: 0.2em;
   color: #000000;
 }
-.about-us p{
-  font-family:inherit;
+.about-us p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -291,15 +274,15 @@ color: #000000;
 }
 .transport-companies a {
   text-decoration: none;
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 28px;
   color: #000000;
 }
-.map h2{
-  font-family:"Gilroy" Arial, Helvetica, sans-serif;
+.map h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
@@ -307,8 +290,8 @@ color: #000000;
   letter-spacing: 0.2em;
   color: #000000;
 }
-.map p{
-  font-family:inherit;
+.map p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -316,80 +299,80 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.main-footer{
+.main-footer {
   background: #363636;
 }
-.footer-address p{
-  font-family:inherit;
+.footer-address p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.footer-navigation{
+.footer-navigation {
   list-style: none;
 }
-.footer-navigation a{
+.footer-navigation a {
   text-decoration: none;
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.2em;
- text-transform: uppercase;
- color: #FFFFFF;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.footer-navigation a:hover{
-  color:rgba(255, 255, 255, 0.6);
+.footer-navigation a:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-navigation a:active{
-  color:rgba(255, 255, 255, 0.3);
+.footer-navigation a:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-list-nav {
   list-style: none;
   text-decoration: none;
-  font-family:inherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
-  color:rgba(255, 255, 255, 0.7);;
+  color: rgba(255, 255, 255, 0.7);
 }
-.footer-list-nav:hover{
-  color:#FFFFFF;
+.footer-list-nav:hover {
+  color: #ffffff;
 }
-.footer-list-nav:active{
-  color:rgba(255, 255, 255, 0.3);
+.footer-list-nav:active {
+  color: rgba(255, 255, 255, 0.3);
 }
-.bracelet h2{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.bracelet h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
   color: #000000;
 }
-.bracelet p{
-  font-family:inherit;
+.bracelet p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color: #000000;
 }
-.selfie-stick h2{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.selfie-stick h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
   color: #000000;
 }
-.selfie-stick p{
-  font-family:inherit;
+.selfie-stick p {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -397,16 +380,16 @@ color: #000000;
   color: #000000;
 }
 /*Catalog*/
-.container-catalog h1{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.container-catalog h1 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 47px;
   line-height: 58px;
   color: #000000;
 }
-.bread-crumbs li{
-  font-family:inherit ;
+.bread-crumbs li {
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -416,9 +399,9 @@ color: #000000;
   text-decoration: none;
   list-style: none;
 }
-.bread-crumbs a{
+.bread-crumbs a {
   text-decoration: none;
-  font-family:inherit ;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -426,24 +409,24 @@ color: #000000;
   color: #000000;
   opacity: 0.3;
 }
-.bread-crumbs li:hover{
+.bread-crumbs li:hover {
   color: #000000;
   opacity: 0.6;
 }
-.bread-crumbs li:active{
+.bread-crumbs li:active {
   color: #000000;
   opacity: 0.1;
 }
-.bread-crumbs a:hover{
+.bread-crumbs a:hover {
   color: #000000;
   opacity: 0.6;
 }
-.bread-crumbs a:active{
+.bread-crumbs a:active {
   color: #000000;
   opacity: 0.1;
 }
-.filter h2{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.filter h2 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -452,8 +435,8 @@ color: #000000;
   text-transform: uppercase;
   color: #000000;
 }
-.filter legend{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.filter legend {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -461,16 +444,16 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.filter label{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.filter label {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
   color: #000000;
 }
-.colour legend{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.colour legend {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -478,7 +461,7 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.colour label{
+.colour label {
   font-family: inherit;
   font-style: normal;
   font-weight: 300;
@@ -486,8 +469,8 @@ color: #000000;
   line-height: 19px;
   color: #000000;
 }
-.bluetooth legend{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.bluetooth legend {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -495,7 +478,7 @@ color: #000000;
   letter-spacing: 0.1em;
   color: #000000;
 }
-.bluetooth label{
+.bluetooth label {
   font-family: inherit;
   font-style: normal;
   font-weight: 300;
@@ -504,10 +487,10 @@ color: #000000;
   color: #000000;
 }
 
-.sorting a{
+.sorting a {
   text-decoration: none;
 }
-.sorting h2{
+.sorting h2 {
   font-family: Gilroy;
   font-style: normal;
   font-weight: 800;
@@ -517,12 +500,12 @@ color: #000000;
   text-transform: uppercase;
   color: #000000;
 }
-.sorting li{
+.sorting li {
   list-style: none;
 }
-.sorting-price-type-popularity{
+.sorting-price-type-popularity {
   text-decoration: none;
-  font-family:inherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -530,16 +513,16 @@ color: #000000;
   color: #000000;
   opacity: 0.3;
 }
-.sorting-price-type-popularity:hover{
+.sorting-price-type-popularity:hover {
   color: #000000;
   opacity: 0.6;
 }
-.sorting-price-type-popularity:active{
+.sorting-price-type-popularity:active {
   color: #000000;
 }
-.add-to-comparison{
+.add-to-comparison {
   text-decoration: none;
-  font-family:inherit;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
@@ -548,15 +531,15 @@ color: #000000;
   color: #000000;
   opacity: 0.5;
 }
-.add-to-comparison:hover{
+.add-to-comparison:hover {
   color: #000000;
 }
-.add-to-comparison:active{
+.add-to-comparison:active {
   color: #000000;
   opacity: 0.2;
 }
-.product-cards h3{
-  font-family:"Gilroy" Arial, Helvetica, sans-serif;
+.product-cards h3 {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -564,8 +547,8 @@ color: #000000;
   letter-spacing: 0.05em;
   color: #000000;
 }
-.product-cards p{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.product-cards p {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -573,8 +556,8 @@ color: #000000;
   letter-spacing: 0.05em;
   color: #000000;
 }
-.back{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.back {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -583,8 +566,8 @@ color: #000000;
   text-transform: uppercase;
   color: #000000;
 }
-.one{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.one {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -592,15 +575,15 @@ color: #000000;
   color: #000000;
   opacity: 0.3;
 }
-.one:hover{
+.one:hover {
   color: #000000;
   opacity: 0.6;
 }
-.one:active{
- color: #000000;
+.one:active {
+  color: #000000;
 }
-.two{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.two {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -608,15 +591,15 @@ color: #000000;
   color: #000000;
   opacity: 0.3;
 }
-.two:hover{
+.two:hover {
   color: #000000;
   opacity: 0.6;
 }
-.two:active{
- color: #000000;
+.two:active {
+  color: #000000;
 }
-.three{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.three {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -624,16 +607,16 @@ color: #000000;
   color: #000000;
   opacity: 0.3;
 }
-.three:hover{
+.three:hover {
   color: #000000;
   opacity: 0.6;
 }
-.three:active{
- color: #000000;
+.three:active {
+  color: #000000;
 }
 
-.forward{
-  font-family: "Gilroy" Arial, Helvetica, sans-serif;
+.forward {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
