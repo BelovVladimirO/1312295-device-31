@@ -264,6 +264,7 @@ input::placeholder {
 .logos li{
   list-style: none;
 }
+
 .about-us h2 {
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -637,10 +638,12 @@ input::placeholder {
   color: #000000;
 }
 .center{
-  width: 1200;
-  margin: 0 auto;
-  margin:0 20px ;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
 }
+
 /* Grid */
 
 .quadrocopter{
@@ -661,7 +664,7 @@ input::placeholder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.about-us-map{
+.about-us-map {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
