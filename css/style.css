@@ -56,11 +56,11 @@
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
-  margin-left: auto;
-  margin-right: auto;
-  }
-.main-header {
-  background: #f7e296;
+   }
+
+
+.main-header .center {
+  background:#f7e296;;
 }
 input::placeholder {
   font-family: inherit;
@@ -238,7 +238,7 @@ input::placeholder {
   background: #000000;
   color: #f7e296;
 }
-.delivery-warranty-credit .center {
+.delivery-warranty-credit {
   background: #7e7e7e ;
 
 }
@@ -309,7 +309,7 @@ input::placeholder {
   letter-spacing: 0.1em;
   color: #000000;
 }
-.main-footer .center {
+.main-footer{
   background: #363636;
  }
 
