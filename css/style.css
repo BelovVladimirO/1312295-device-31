@@ -56,7 +56,6 @@
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -239,8 +238,9 @@ input::placeholder {
   background: #000000;
   color: #f7e296;
 }
-.delivery-warranty-credit {
+.delivery-warranty-credit .center {
   background: #7e7e7e ;
+
 }
 .delivery-warranty-credit h2 {
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
@@ -309,7 +309,7 @@ input::placeholder {
   letter-spacing: 0.1em;
   color: #000000;
 }
-.main-footer {
+.main-footer .center {
   background: #363636;
  }
 
@@ -636,7 +636,11 @@ input::placeholder {
   text-transform: uppercase;
   color: #000000;
 }
-
+.center{
+  width: 1200;
+  margin: 0 auto;
+  margin:0 20px ;
+}
 /* Grid */
 
 .quadrocopter{
@@ -646,7 +650,8 @@ input::placeholder {
 
 .list-of-products{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6,1fr);
+  column-gap: 40px;
 }
 .services{
   display: grid;
