@@ -40,11 +40,11 @@
   --special: #f7e296;
   --special-green: #91c92f;
   --status: #f6dada;
-}
+  }
 
 /* Global*/
 
-body {
+.pade-body {
   min-width: 960px;
   margin: 0;
   padding: 0;
@@ -52,11 +52,16 @@ body {
   font-size: 15px;
   line-height: 28px;
   font-weight: 300;
-}
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  width: 1200px;
+  }
 .main-header {
   background: #f7e296;
 }
-input::-webkit-input-placeholder {
+input::placeholder {
   font-family: inherit;
   font-style: normal;
   font-weight: 300;
@@ -168,19 +173,18 @@ input::-webkit-input-placeholder {
   text-decoration: none;
   color: #000000;
 }
-.features dt {
+.features{
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
+}
+.features dt {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.1em;
   color: #000000;
 }
 .features dd {
-  font-family: "Gilroy", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 300;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.1em;
@@ -301,7 +305,8 @@ input::-webkit-input-placeholder {
 }
 .main-footer {
   background: #363636;
-}
+ }
+
 .footer-address p {
   font-family: inherit;
   font-style: normal;
@@ -624,4 +629,30 @@ input::-webkit-input-placeholder {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #000000;
+}
+/* Grid */
+
+.quadrocopter{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.bracelet{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.selfie-stick{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.information{
+  display: grid;
+  grid-template-columns: 417px 1fr;
+}
+.logos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
