@@ -668,3 +668,34 @@ input::placeholder {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+/*filter*/
+.cost{
+  display: block;
+  width: 200px;
+  height: 215px;
+}
+.colour{
+  display: block;
+  width: 200px;
+  height: 280px;
+}
+.bluetooth{
+  display: block;
+  width: 200px;
+  height: 177px;
+}
+.colour-filter{
+  display: block;
+  text-align: center;
+  }
+  .bluetooth ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .product-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+

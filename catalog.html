@@ -9,6 +9,7 @@
   </head>
   <body class="pade-body">
     <header class="main-header">
+      <div class="center">
       <nav class="main-navigation-catalog">
         <a class="main-header-logo" href="index.html"
           ><img src="logo.png" alt="Логотип"
@@ -34,8 +35,10 @@
           <li><a href="#">Контанты</a></li>
         </ul>
       </nav>
+      </div>
     </header>
     <main class="container-catalog">
+      <div class="center">
       <h1>Моноподы для селфи</h1>
 
       <ul class="bread-crumbs">
@@ -47,10 +50,11 @@
         </li>
         <li>Моноподы для селфи</li>
       </ul>
+      </div>
 
       <section class="filter">
         <h2>Фильтр:</h2>
-        <form method="GET" action="https://echo.htmlacademy.ru/courses">
+        <form  method="GET" action="https://echo.htmlacademy.ru/courses">
           <fieldset class="cost">
             <legend>Стоимость</legend>
             <input type="range" min="0" max="5000" step="1" />
@@ -61,8 +65,9 @@
             /></label>
           </fieldset>
           <fieldset class="colour">
-            <legend>Цвет</legend>
-            <input
+             <legend>Цвет</legend>
+             <div class="colour-filter">
+             <input
               class="checkbox"
               type="checkbox"
               name="Black"
@@ -100,24 +105,33 @@
               id="filter-Pink"
             />
             <label for="filter-Pink">Розовый</label>
-          </fieldset>
+            </div>
+           </fieldset>
           <fieldset class="bluetooth">
             <legend>Bluetooth</legend>
-            <input
+            <div class="colour-filter">
+              <ul>
+              <li><input
               type="radio"
               name="Bluetooth"
               value="Choice-Yes"
               id="filter-Yes"
               checked
             />
+
             <label for="filter-Yes">Есть</label>
-            <input
+            </li>
+            <li><input
               type="radio"
               name="Bluetooth"
               value="Choice-No"
               id="filter-No"
             />
             <label for="filter-No">Нет</label>
+            </li>
+            </ul>
+            </div>
+
           </fieldset>
           <button class="button" type="submit">
             <span class="effect">Показать</span>
@@ -125,7 +139,7 @@
         </form>
       </section>
 
-      <section class="sorting">
+      <section class="sorting center">
         <h2>Сортировка:</h2>
         <ul>
           <li>
