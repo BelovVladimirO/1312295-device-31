@@ -11,27 +11,28 @@
      <header class="main-header">
       <div class="center">
       <nav class="main-navigation">
-        <a class="main-header-logo"><img src="img/logo-DEVICE-black.svg" alt="Логотип" /></a>
         <div class="main-navigation-wrapper">
-        <div class="list-nav-main">
-        <form action="https://echo.htmlacademy.ru" method="get">
-          <input
-            class="search"
-            name="search"
-            placeholder="Поиск по сайту"
-            type="search"
-          />
-          <button class="search-button" type="button">Найти</button>
-        </form>
-        <a class="list-nav" href="#">Войти</a>
-        <a class="list-nav" href="#">Сравнить</a>
-        <a class="list-nav" href="#">Корзина</a>
+          <div class="black">
+        <a class="main-header-logo"><img src="img/logo-DEVICE-black.svg" alt="Логотип" /></a>
         </div>
+
+        <div class="list-nav-main">
+        <form class="list-nav"  action="https://echo.htmlacademy.ru" method="get">
+          <input class="search" name="search" placeholder="Поиск по сайту" type="search"/>
+
+        <!--  <button class="search-button" type="button">Найти</button>-->
+        </form>
+        <a class="list-nav1" href="#">Войти</a>
+        <a class="list-nav2" href="#">Сравнить</a>
+        <a class="list-nav3" href="#">Корзина</a>
+        </div>
+
+
         <ul class="site-navigation">
-          <li><a href="catalog.html">Каталог товаров</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контанты</a></li>
+          <li><a class="list-nav4" href="catalog.html">Каталог товаров</a></li>
+          <li><a class="list-nav5" href="#">Доставка</a></li>
+          <li><a class="list-nav6" href="#">Гарантия</a></li>
+          <li><a class="list-nav7" href="#">Контанты</a></li>
         </ul>
         </div>
       </nav>
@@ -223,17 +224,19 @@
       </div>
       </main>
 
-    <footer class="main-footer">
-      <a class="footer-logo"><img src="logo.png" alt="Логотип" /></a>
-
+    <footer class="main-footer center-footer">
+      <div class="logo-address">
+     <a class="footer-logo"><img src="img/-e-logo.svg" alt="Логотип"/></a>
       <section class="footer-address">
-        <h2>Как нас найти</h2>
-
-        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      </section>
+       <!--- <h2>Как нас найти</h2>-->
+        <p class="adr">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        <p>Белов Владимир Олегович</p>
+       </section>
+       </div>
 
       <section class="footer-info">
-        <h2>Информация</h2>
+
+       <!-- <h2>Информация</h2>-->
         <ul class="footer-navigation">
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
@@ -245,20 +248,20 @@
           <li><a class="social-button" href="#">Инстаграмм</a></li>
           <li><a class="social-button" href="#">Твиттер</a></li>
         </ul>
-      </section>
+       </section>
+
+
 
       <section class="footer-contacts">
-        <h2>Контакты</h2>
+        <!--<h2>Контакты</h2>-->
+        <div class="asd">
         <a class="footer-list-nav" href="#">Войти</a>
         <a class="footer-list-nav" href="#">Сравнить</a>
         <a class="footer-list-nav" href="#">Корзина</a>
-
-        <a class="contacts-phone" href="mailto:78005558628"
-          >Тел.: +7 800 555-86-28</a
-        >
-
+        <a class="contacts-phone" href="mailto:78005558628">Тел.: +7 800 555-86-28</a>
         <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
-       </section>
+        </div>
+        </section>
        </footer>
   </body>
 </html>

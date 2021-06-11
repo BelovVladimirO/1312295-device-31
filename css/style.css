@@ -60,7 +60,8 @@
 
 
 .main-header .center {
-  background:#f7e296;;
+  background:#f7e296;
+  margin-top: 40px;
 }
 input::placeholder {
   font-family: inherit;
@@ -686,6 +687,8 @@ input::placeholder {
 }
 .colour-filter{
   display: block;
+  width: 120px;
+  height: 120px;
   text-align: center;
   }
   .bluetooth ul{
@@ -696,6 +699,111 @@ input::placeholder {
   .product-cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
   }
-  
 
+ .main-footer{
+   display: flex;
+   justify-content: space-between;
+   width: 1440px;
+   }
+.logo-address{
+padding-left: 140px;
+width: 212px;
+padding-top: 63px;
+margin-right: 156px;
+
+}
+
+.center-footer{
+  width: 1440px;
+  height: 324px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.asd{
+  padding-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 254px;
+  padding-top: 46px;
+
+ }
+.footer-navigation{
+  display: flex;
+  width: 423px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 138px;
+  margin-right: 68px;
+
+}
+.footer-socials{
+  display: flex;
+  justify-content: center;
+  padding-top: 67px;
+
+
+
+
+}
+.main-navigation-wrapper{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.black{
+  padding: 0 60px;
+
+}
+.list-nav-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 60px;
+
+}
+.list-nav{
+  width: 106px;
+  margin-right: 398px;
+}
+.list-nav1{
+width: 44px;
+margin-right: 239px;
+text-decoration: none;
+}
+.list-nav2{
+  width: 70px;
+  text-decoration: none;
+}
+.list-nav3{
+  width: 60px;
+  text-decoration: none;
+}
+.site-navigation{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  padding: 50px 60px;
+  padding-bottom: 164px;
+}
+.list-nav4{
+  width: 216px;
+  margin-right: 290px;
+  }
+.list-nav5{
+  width: 121px;
+  }
+.list-nav6{
+  width: 111px ;
+  }
+.list-nav7{
+  width:119px ;
+  margin-left: 111px;
+
+}
