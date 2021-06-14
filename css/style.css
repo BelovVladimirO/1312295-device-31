@@ -113,8 +113,29 @@ input::placeholder {
 .list-nav:focus {
   color: #7e7e7e;
 }
+.list-nav1{
+  text-decoration: none;
+  list-style: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.list-nav1:hover {
+  color: #464646;
+}
+.list-nav1:focus {
+  color: #7e7e7e;
+}
 .site-navigation {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-right: 60px;
 }
 .site-navigation a {
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
@@ -214,6 +235,7 @@ input::placeholder {
 }
 .services {
   list-style: none;
+
 }
 .services a {
   text-decoration: none;
@@ -240,7 +262,7 @@ input::placeholder {
   color: #f7e296;
 }
 .delivery-warranty-credit {
-  background: #7e7e7e ;
+background-color: #e5e5e5;
 
 }
 .delivery-warranty-credit h2 {
@@ -343,9 +365,26 @@ input::placeholder {
 .footer-navigation a:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
-.footer-list-nav {
+.footer_contacts li  {
   list-style: none;
+}
+.social-button1{
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.social-button2{
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.social-button3{
+  color:#e5e5e5;
+  text-decoration: none;
+}
+
+.user-list{
+  list-style: none;
+}
+.user-link {
   text-decoration: none;
   font-family: inherit;
   font-style: normal;
@@ -354,10 +393,10 @@ input::placeholder {
   line-height: 20px;
   color: rgba(255, 255, 255, 0.7);
 }
-.footer-list-nav:hover {
+.user-link:hover {
   color: #ffffff;
 }
-.footer-list-nav:active {
+.user-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
 .bracelet h2 {
@@ -649,18 +688,39 @@ input::placeholder {
 
 .quadrocopter{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+   }
+.features{
+  display: flex;
+  flex-wrap: wrap;
 }
+.dd1{
+margin: 0 auto;
+margin-top: 15px;
+}
+.dt1{
+  margin-left: 83px;
+}
+.button_slide{
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 
 .list-of-products{
   display: grid;
   grid-template-columns: repeat(6,1fr);
   column-gap: 40px;
 }
-.services{
-  display: grid;
-  grid-template-columns:277px 1fr;
+.slide2{
+ display: grid;
+ grid-template-columns: 25% 1fr;
+
 }
+
+
 .list-of-logos{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -670,36 +730,123 @@ input::placeholder {
   grid-template-columns: 1fr 1fr;
 }
 /*filter*/
-.cost{
-  display: block;
-  width: 200px;
-  height: 215px;
+
+
+.black-logo{
+  margin:  -40px 0 0 0;
+  padding-left: 60px;
+  padding-bottom: 30px;
 }
-.colour{
-  display: block;
-  width: 200px;
-  height: 280px;
+.list-nav-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
-.bluetooth{
-  display: block;
-  width: 200px;
-  height: 177px;
+.form1{
+ padding-left:60px;
 }
-.colour-filter{
-  display: block;
-  width: 120px;
-  height: 120px;
-  text-align: center;
-  }
-  .bluetooth ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .product-cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
+.user-header{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+.list-nav1{
+  padding-right: 250px;
+}
+
+
+
+.site-navigation{
+ display: grid;
+ grid-template-columns: 47% 13% 25.3% 1fr;
+ margin: 0;
+ padding: 0;
+ padding-left: 60px;
+ margin-top: 50px;
+
+}
+
+.user1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.user-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-top: 46px;
+}
+.user-login{
+margin-right: 63px;
+}
+.user-compare{
+margin-right: 62px;
+}
+.logo-address{
+  padding-top: 64px;
+}
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-address{
+  max-width: 300px;
+  padding-top: 40px;
+
+
+}
+
+.footer-navigation{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  padding-top: 50px;
   }
 
- 
+.footer-delivery{
+  margin-right: 36px ;
+}
+.footer-warranty{
+  margin-right: 36px;
+}
+.footer-cont{
+  margin-right: 46px;
+
+}
+.tel{
+padding-top: 50px;
+}
+.contacts-phone{
+  text-decoration: none;
+  font-family:initial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer_contacts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 67px;
+}
+.footer-socials{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  margin-left: 20px;
+
+}
+.social-button2{
+  margin-left: 20px;
+  }
+.social-button3{
+  margin-left: 20px;
+}
+

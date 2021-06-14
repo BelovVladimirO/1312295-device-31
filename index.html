@@ -11,22 +11,24 @@
      <header class="main-header">
       <div class="center">
       <nav class="main-navigation">
-        <div class="main-navigation-wrapper">
-          <div class="black">
-        <a class="main-header-logo"><img src="img/logo-DEVICE-black.svg" alt="Логотип" /></a>
+        <div class="black-logo">
+        <a class="main-header-logo"><img src="img/logo-device-black.svg" alt="Логотип" /></a>
         </div>
 
         <div class="list-nav-main">
+          <div class="form1">
         <form class="list-nav"  action="https://echo.htmlacademy.ru" method="get">
           <input class="search" name="search" placeholder="Поиск по сайту" type="search"/>
-
         <button class="search-button" type="button">Найти</button>
         </form>
-        <a class="list-nav" href="#">Войти</a>
+        </div>
+
+        <div class="user-header">
+        <a class="list-nav1" href="#">Войти</a>
         <a class="list-nav" href="#">Сравнить</a>
         <a class="list-nav" href="#">Корзина</a>
         </div>
-
+      </div>
 
         <ul class="site-navigation">
           <li><a class="list-nav" href="catalog.html">Каталог товаров</a></li>
@@ -34,7 +36,7 @@
           <li><a class="list-nav" href="#">Гарантия</a></li>
           <li><a class="list-nav" href="#">Контанты</a></li>
         </ul>
-        </div>
+
       </nav>
       </div>
 
@@ -43,27 +45,45 @@
 
     <main class="container">
       <div class="center">
+
       <h1>Интернет-магазин "Девайс"</h1>
       <section class="quadrocopter">
-        <h2>Квадрокоптер</h2>
+        <div class="quadrocopter-img1">
+        <!--<h2>Квадрокоптер</h2>-->
         <a href="#">
-          <img src="img/slider-3_1.jpg" width="100" height="50" alt="Квадрокоптеры" />
+          <img src="img/slider-3_1.jpg" width="526" height="334" alt="Квадрокоптеры" />
         </a>
+        </div>
+        <div class="quadrocopter-text">
         <h2>Порхает как бабочка, жалит как пчела!</h2>
         <p>
-          Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+          Этот обычный, на первый взгляд, квадрокоптер оснащен<br> мощным лазером,
           замаскированным под стандартную камеру.
         </p>
+        <div class="button_slide">
+        <div class="more_detailed">
         <a class="button" href="#"><span class="effect">Подробнее</span></a>
+        </div>
+        <div class="slide1">
         <button class="slide" type="button"></button>
         <button class="slide" type="button"></button>
         <button class="slide" type="button"></button>
-        <dl class="features">
+        </div>
+        </div>
+
+
+          <dl class="features">
+          <div class="1qa">
           <dt>800 м</dt>
-          <dd>Дальность полёта</dd>
-          <dt>500 м</dt>
-          <dd>Радиус поражения</dd>
+          <dd class="dd1">Дальность полёта</dd>
+          </div>
+          <div class="dt1">
+          <dt>50 м</dt>
+          <dd class="dd1">Радиус поражения</dd>
+          </div>
         </dl>
+      </div>
+
       </section>
 
       <section class="bracelet">
@@ -122,45 +142,67 @@
           <li><a class="product-button" href="#">Квадрокоптеры</a></li>
         </ul>
       </section>
-      </div>
+    </div>
 
 
-      <section class="information">
-        <h2>Информация</h2>
+
+      <div class="slide2 delivery-warranty-credit center">
+
+        <section class="information">
+
+        <!--<h2>Информация</h2>-->
         <ul class="services">
           <li><a class="services-button" href="#">ДОСТАВКА</a></li>
           <li><a class="services-button" href="#">ГАРАНТИЯ</a></li>
           <li><a class="services-button" href="#">КРЕДИТ</a></li>
-        </ul>
-      </section>
+       </ul>
+
+       </section>
 
 
       <section class="delivery-warranty-credit">
-        <h2>Доставка</h2>
+
+         <h2>Доставка</h2>
         <p>
           Мы с удовольствием доставим ваш товар прямо к вашему<br />
           подъезду совершенно бесплатно! Ведь мы неплохо<br />
           заработаем, поднимая его на ваш этаж.
         </p>
-       </section>
 
-      <section class="delivery-warranty-credit">
+        </section>
+
+      </div>
+
+
+
+
+
+
+
+
+      <!--<section class="delivery-warranty-credit">
+        <div class="center">
         <h2>Гарантия</h2>
         <p>
           Если из-за возгорания купленного у нас товара у вас сгорит дом —<br />
           не переживайте, мы выдадим вам новый.<br />
           Товар, не дом, конечно же.
         </p>
+        </div>
         </section>
 
       <section class="delivery-warranty-credit">
+        <div class="center">
         <h2>Кредит</h2>
         <p>
           Залезть в долговую яму стало проще! Кредитные консультанты<br />
           подберут для вас наиболее выгодные<br />
           условия кредита. Выгодные для нашего банка, разумеется.
         </p>
-        </section>
+        </div>
+
+        </section>-->
+
 
       <section class="logos">
         <div class="center">
@@ -224,44 +266,67 @@
       </div>
       </main>
 
-    <footer class="main-footer center-footer">
+    <footer class="main-footer">
+
+      <div class="center">
+
+      <div class="user1">
       <div class="logo-address">
      <a class="footer-logo"><img src="img/-e-logo.svg" alt="Логотип"/></a>
-      <section class="footer-address">
-        <h2>Как нас найти</h2>
-        <p class="adr">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-        <p>Белов Владимир Олегович</p>
-       </section>
-       </div>
+     </div>
+     <div class="user-list">
+       <a class="user-link user-login" href="#">Войти</a>
+       <a class="user-link user-compare" href="#">Сравнить</a>
+       <a class="user-link" href="#">Корзина</a>
+     </div>
+     </div>
 
-      <section class="footer-info">
+     <div class="footer-end">
 
-        <h2>Информация</h2>
+        <section class="footer-address">
+       <!-- <h2>Как нас найти</h2>-->
+        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        </section>
+
+
+
+        <section class="footer-info">
+       <!--   <h2>Информация</h2> -->
         <ul class="footer-navigation">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контанты</a></li>
+          <li><a class="footer-delivery" href="#">Доставка</a></li>
+          <li><a class="footer-warranty" href="#">Гарантия</a></li>
+          <li><a class="footer-cont" href="#">Контанты</a></li>
         </ul>
+        </section>
 
-        <ul class="footer-socials">
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграмм</a></li>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-        </ul>
-       </section>
-
+        <div class="tel">
+         <a class="contacts-phone" href="mailto:78005558628">Тел.: +7 800 555-86-28</a>
+        </div>
+        </div>
 
 
-      <section class="footer-contacts">
-        <h2>Контакты</h2>
-        <div class="asd">
-        <a class="footer-list-nav" href="#">Войти</a>
-        <a class="footer-list-nav" href="#">Сравнить</a>
-        <a class="footer-list-nav" href="#">Корзина</a>
-        <a class="contacts-phone" href="mailto:78005558628">Тел.: +7 800 555-86-28</a>
+
+
+       <section class="footer_contacts">
+         <div class="dash">
+           <p>Белов Владимир Олегович</p>
+          </div>
+
+
+        <!--- <h2>Контакты</h2>-->
+       <ul class="footer-socials">
+        <li><a class="social-button1" href="#"><img src="img/vector1.svg" alt="Фейсбук"/></a></li>
+        <li><a class="social-button2" href="#"><img src="img/vector2.svg" alt="Инстаграмм"/></a></li>
+        <li><a class="social-button3" href="#"><img src="img/vector3.svg" alt="Твитер"/></a></li>
+      </ul>
+
+       <div class="html">
         <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
         </div>
         </section>
+
+      </div>
+
        </footer>
   </body>
 </html>
