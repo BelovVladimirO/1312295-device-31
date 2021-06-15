@@ -738,22 +738,44 @@ margin-top: 15px;
   padding-bottom: 30px;
 }
 .list-nav-main{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+ display: grid;
+ grid-template-columns: 50% 1fr;
+}
+.user-header{
+display: flex;
+justify-content: space-between;
+padding-right: 60px;
+flex-wrap: wrap;
+}
+.list-nav1{
+  padding-right: 250px;
 
+}
+.list-nav3{
+  padding-right: 135px;
+  text-decoration: none;
+  list-style: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.list-nav4{
+  padding-right: 30px;
+  text-decoration: none;
+  list-style: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
 }
 .form1{
  padding-left:60px;
 }
-.user-header{
-  display: flex;
-  justify-content: space-between;
-  padding-right: 60px;
-}
-.list-nav1{
-  padding-right: 250px;
-}
-
 
 
 .site-navigation{
@@ -763,6 +785,7 @@ margin-top: 15px;
  padding: 0;
  padding-left: 60px;
  margin-top: 50px;
+
 
 }
 
@@ -848,5 +871,81 @@ padding-top: 50px;
   }
 .social-button3{
   margin-left: 20px;
+}
+
+
+.bread-crumbs{
+  display: grid;
+  grid-template-columns: 10% 15% 15%;
+}
+
+.filter1{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+.product-cards{
+  display: grid;
+  grid-template-columns:360px 360px;
+  column-gap: 40px;
+}
+
+.rtyu{
+  display: flex;
+  padding-left: 40px;
+
+}
+.qwert{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 9px;
+
+
+}
+.jgjhg{
+  display: flex;
+}
+.sorting-price-type-popularity{
+  padding-right: 30px;
+  padding-left: 74px;
+
+}
+.sorting-price-type-popularity2{
+  padding-left: 30px;
+  text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.3;
+}
+.sorting-price-type-popularity1{
+  text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.3;
+}
+.cards1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ align-items: center;
+}
+
+.back-forward{
+  width: 760px;
+  display:grid;
+  grid-template-columns: 42.5% 7% 7% 34% 15%;
+}
+.user-name{
+padding-right: 24px;
 }
 
