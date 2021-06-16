@@ -59,79 +59,77 @@
       <section class="filter">
 
         <h2>Фильтр:</h2>
-        <form  method="GET" action="https://echo.htmlacademy.ru/courses">
+        <form class="tyui" method="GET" action="https://echo.htmlacademy.ru/courses">
           <fieldset class="cost">
             <legend>Стоимость</legend>
             <input type="range" min="0" max="5000" step="1" />
             <label>от 0<input type="text" name="min-price" value="0" /></label>
             <input type="range" min="0" max="5000" step="1" />
-            <label
-              >до 5000<input type="text" name="max-price" value="5000"
-            /></label>
+            <label>до 5000<input type="text" name="max-price" value="5000"/></label>
           </fieldset>
           <fieldset class="colour">
              <legend>Цвет</legend>
-             <div class="colour-filter">
-             <input class="checkbox" type="checkbox" name="Black" id="filter-Black" checked/>
-            <label for="filter-Black">Чёрный</label>
-            <input class="checkbox" type="checkbox" name="White" id="filter-White"/>
-            <label for="filter-White">Белый</label>
-            <input class="checkbox" type="checkbox" name="Blue" id="filter-Blue" checked/>
-            <label for="filter-Blue">Синий</label>
-            <input class="checkbox" type="checkbox" name="Red" id="filter-Red" checked/>
-            <label for="filter-Red">Красный</label>
-            <input class="checkbox" type="checkbox" name="Pink" id="filter-Pink"/>
-            <label for="filter-Pink">Розовый</label>
+             <div>
+             <ul class="colour-filter">
+             <input class="visually-hidden" type="checkbox" name="Black" id="filter-Black" checked/>
+            <li><label for="filter-Black">Чёрный</label></li>
+            <input class="visually-hidden" type="checkbox" name="White" id="filter-White"/>
+            <li><label for="filter-White">Белый</label></li>
+            <input class="visually-hidden" type="checkbox" name="Blue" id="filter-Blue" checked/>
+            <li><label for="filter-Blue">Синий</label></li>
+            <input class="visually-hidden" type="checkbox" name="Red" id="filter-Red" checked/>
+            <li><label for="filter-Red">Красный</label></li>
+            <input class="visually-hidden" type="checkbox" name="Pink" id="filter-Pink"/>
+            <li><label for="filter-Pink">Розовый</label></li>
+            </ul>
             </div>
            </fieldset>
           <fieldset class="bluetooth">
             <legend>Bluetooth</legend>
-            <div class="colour-filter">
-              <ul>
-              <li><input type="radio" name="Bluetooth" value="Choice-Yes" id="filter-Yes" checked/>
+           <div>
+              <ul class="colour-filter">
+              <li><input class="visually-hidden" type="radio" name="Bluetooth" value="Choice-Yes" id="filter-Yes" checked/>
 
             <label for="filter-Yes">Есть</label>
             </li>
-            <li><input type="radio" name="Bluetooth" value="Choice-No" id="filter-No"/>
+            <li><input class="visually-hidden" type="radio" name="Bluetooth" value="Choice-No" id="filter-No"/>
             <label for="filter-No">Нет</label>
             </li>
             </ul>
             </div>
 
           </fieldset>
-          <button class="button" type="submit">
+
+          <a class="button1" type="submit">
             <span class="effect">Показать</span>
-          </button>
+          </a>
         </form>
         </section>
 
 
       <section class="sorting center">
-        <div class="jgjhg">
-        <h2 class="rtyu">Сортировка:</h2>
-        <ul class="qwert">
+        <div class="sort1">
+        <h2 class="sort2">Сортировка:</h2>
+
+        <ul class="sort3">
           <li>
             <a class="sorting-price-type-popularity" href="#">По цене</a>
           </li>
           <li>
-            <a class="sorting-price-type-popularity1" href="#">По типу</a>
+            <a class="sorting-price-type-popularity" href="#">По типу</a>
           </li>
           <li>
-            <a class="sorting-price-type-popularity2" href="#">По популярности</a>
-          </li>
-          <li>
-            <a class="triangle" href="#"></a>
-          </li>
-          <li>
-            <a class="triangle" href="#"></a>
+            <a class="sorting-price-type-popularity1" href="#">По популярности</a>
           </li>
         </ul>
-            </div>
-        <ul class="product-cards">
+        <div class="triangle">
+        <a class="triangle1" href="#"><img src="img/triangle.svg"/></a>
+        <a href="#"><img src="img/triangle1.svg"/></a>
+        </div>
+         </div>
+         <ul class="product-cards">
           <li>
-            <a href="catalog.html"
-              ><img
-                src="img/Amateur_selfie_stick.jpg" width="360" height="380" alt="Любительская селфи-палка"/>
+            <a href="catalog.html"><img src="img/amateur_selfie_stick.jpg" width="360" height="380" alt="Любительская селфи-палка"/>
                 <div class="cards1">
               <h3>Любительская селфи-палка</h3>
               <p>1 100 руб.</p>
@@ -140,7 +138,7 @@
 
           </li>
           <li>
-            <a href="catalog.html"><img src="img/Professional_selfie_stick.jpg" width="360" height="380" alt="Профессиональная селфи-палка"/>
+            <a href="catalog.html"><img src="img/professional_selfie_stick.jpg" width="360" height="380" alt="Профессиональная селфи-палка"/>
               <div class="cards1">
               <h3>Профессиональная<br> селфи-палка</h3>
               <p>1 500 руб.</p>
@@ -149,16 +147,16 @@
 
           </li>
           <li>
-            <a href="catalog.html"><img src="img/Unsinkable_selfie_stick.jpg" width="360" height="380" alt="Непотопляемая селфи-палка"/>
+            <a href="catalog.html"><img src="img/unsinkable_selfie_stick.jpg" width="360" height="380" alt="Непотопляемая селфи-палка"/>
               <div class="cards1">
-              <h3>Непотопляемая селфи-палка</h3>
+              <h3>Непотопляемая<br> селфи-палка</h3>
               <p>1 500 руб.</p>
               </div>
             </a>
 
           </li>
           <li>
-            <a href="catalog.html"><img src="img/Selfie_stick_Follow_me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной"/>
+            <a href="catalog.html"><img src="img/selfie_stick_Follow_me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной"/>
               <div class="cards1">
               <h3>Селфи-палка «Следуй за<br> мной»</h3>
               <p>1 900 руб.</p>
@@ -167,11 +165,13 @@
 
           </li>
         </ul>
+        <div class="forward-back">
+        <div class="back">
+        <a class="bac" href="#">Назад</a>
+        </div>
 
+        <div class="rty">
         <ul class="back-forward">
-          <li>
-            <a class="back" href="#">Назад</a>
-          </li>
           <li>
             <a class="one">1</a>
           </li>
@@ -181,10 +181,12 @@
           <li>
             <a class="three" href="#">3</a>
           </li>
-          <li>
-            <a class="forward" href="#">Вперед</a>
-          </li>
         </ul>
+        </div>
+        <div class="forward">
+        <a class="bac" href="#">Вперед</a>
+        </div>
+        </div>
 
       </section>
       </div>
@@ -206,13 +208,13 @@
 
       <div class="footer-end">
       <section class="footer-address">
-        <!--<h2>Как нас найти</h2>-->
+       <h2 class="visually-hidden" >Как нас найти</h2>
        <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
 
       </section>
 
       <section class="footer-info">
-        <!--<h2>Информация</h2>-->
+        <h2 class="visually-hidden" >Информация</h2>
         <ul class="footer-navigation">
           <li><a  class="footer-delivery" href="#">Доставка</a></li>
           <li><a class="footer-warranty" href="#">Гарантия</a></li>
@@ -227,7 +229,7 @@
 
 
       <section class="footer_contacts">
-        <!--<h2>Контакты</h2>-->
+        <h2  class="visually-hidden">Контакты</h2>
         <div class="dash">
           <p>Белов Владимир Олегович</p>
          </div>
