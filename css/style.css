@@ -1253,9 +1253,7 @@ padding-right: 24px;
   left: 0;
   content: "";
   z-index: -1;
-  background-image: url("/img/line-yellow.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  background-color: #f0c52e;
 }
 .more-link:hover{
   background-color: #f0c52e;
@@ -1314,9 +1312,7 @@ padding-right: 24px;
   left: 0px;
   content: "";
   z-index: -1;
-  background-image: url("/img/lineyellow260.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  background-color: #f0c52e;
 }
 .more-link1:hover{
   background-color: #f0c52e;
@@ -1333,9 +1329,7 @@ padding-right: 24px;
   width: 80px;
   height: 7px;
   bottom: 110px;
-  background-image: url("/img/linebleck.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  background-color:black;
 }
 .footer_contacts .dash{
   position: relative;
@@ -1346,9 +1340,7 @@ padding-right: 24px;
   width: 80px;
   top: 12px;
   height: 7px;
-  background-image: url("/img/line-yellow80.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  background-color: #f0c52e;
 }
 .user-list .user-login{
   position: relative;
