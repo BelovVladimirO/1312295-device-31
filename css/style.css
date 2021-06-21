@@ -1162,7 +1162,7 @@ padding-right: 24px;
     content: "";
     width: 13px;
     height: 13px;
-    background-image: url("/img/magnifier.svg");
+    background-image: url("../img/magnifier.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
   }
@@ -1176,7 +1176,7 @@ padding-right: 24px;
   left: -20px;
   width: 9px;
   height: 10px;
-  background-image: url("/img/user.svg");
+  background-image: url("../img/user.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1190,7 +1190,7 @@ padding-right: 24px;
   left: -20px;
   width: 10px;
   height: 10px;
-  background-image: url("/img/compare.svg");
+  background-image: url("../img/compare.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 
@@ -1215,7 +1215,7 @@ padding-right: 24px;
   left: -20px;
   width: 10px;
   height: 10px;
-  background-image: url("/img/cart.svg");
+  background-image: url("../img/cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1360,7 +1360,7 @@ padding-right: 24px;
   height: 9px;
   top: 6px;
   left: -20px;
-  background-image: image("/img/footer1.svg");
+  background-image: url("../img/footer1.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1374,7 +1374,7 @@ padding-right: 24px;
   height: 9px;
   top: 6px;
   left: -20px;
-  background-image: url("/img/footer2.svg");
+  background-image: url("../img/footer2.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1388,7 +1388,7 @@ padding-right: 24px;
   height: 9px;
   top: 6px;
   left: -20px;
-  background-image: url("/img/footer3.svg");
+  background-image: url("../img/footer3.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
