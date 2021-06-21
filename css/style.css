@@ -1360,7 +1360,7 @@ padding-right: 24px;
   height: 9px;
   top: 6px;
   left: -20px;
-  background-image: url("/img/footer1.svg");
+  background-image: image("/img/footer1.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
