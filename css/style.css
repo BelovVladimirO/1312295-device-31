@@ -1340,11 +1340,13 @@ top: 50%;
 .categories-image:hover{
   background-color: #f0c52e;
 }
-.categories-image:active{
+.categories-image svg:active{
   background-color: #f0c52e;
   opacity: 0.3;
   }
-
+.transparency:active{
+  opacity: 0.3;
+}
 .more-link1{
   z-index: 1;
   padding: 9px 43px;
