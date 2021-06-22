@@ -272,6 +272,13 @@ input::placeholder {
 .services a {
   text-decoration: none;
 }
+.services a:hover{
+  background-color: #f0c52e;
+}
+.services a:active{
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
 .services-button {
 
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
@@ -915,6 +922,13 @@ margin-right: 62px;
     background: #E5E5E5;
     padding-left: 50px;
 }
+.filter a:hover{
+  background-color: #f0c52e
+}
+.filter a:active{
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
 
 .cost{
   border: 0px;
@@ -1301,15 +1315,15 @@ padding-right: 24px;
   z-index: -1;
   background-color: #f0c52e;
 }
-.more-link:hover{
+.more_detailed a:hover{
   background-color: #f0c52e;
 }
-  .more-link .transparency:active{
+ .more_detailed a:active{
   background-color: #f0c52e;
-  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.list-product {
+.categories-image {
   position: relative;
   display: block;
   margin-bottom: 33px;
@@ -1317,16 +1331,16 @@ padding-right: 24px;
   height: 160px;
   background: #F7E296;
 }
-.list-product svg{
+.categories-image svg{
 position: absolute;
 transform: translate(-50%,-50%);
 left: 50%;
 top: 50%;
 }
-.list-product:hover{
+.categories-image:hover{
   background-color: #f0c52e;
 }
-.list-product:active{
+.categories-image:active{
   background-color: #f0c52e;
   opacity: 0.3;
   }
@@ -1356,11 +1370,19 @@ top: 50%;
   z-index: -1;
   background-color: #f0c52e;
 }
-.more-link1:hover{
+.about-us a:hover{
   background-color: #f0c52e;
 }
-.more-link1:active{
+.about-us a:active{
   background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
+.map a:hover{
+  background-color: #f0c52e;
+}
+.map a:active{
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
 }
 .about-us-map .line-black{
   position: relative;
