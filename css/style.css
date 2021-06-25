@@ -919,14 +919,16 @@ margin-right: 62px;
 
 .filter1{
   display: grid;
-  grid-template-columns: 33% 1fr;
+  grid-template-columns: 39% 1fr;
+
 
 }
 .filter{
     padding-top: 20px;
+    padding-left:435px;
     background: #E5E5E5;
-    padding-left: 110px;
 }
+
 
 .filter a:hover{
   background-color: #f0c52e
@@ -1090,7 +1092,7 @@ bottom: 30px;
 .filter-input-radio:checked + label::after{
   content: "";
   position: absolute;
-  top: 9px;
+  top: 10px;
   left: -32px;
   width: 16px;
   height: 16px;
@@ -1328,7 +1330,7 @@ padding-right: 24px;
 
 .more-link{
   z-index: 1;
-  padding: 8px 43px;
+  padding: 8px 70px;
   position: relative;
   font-family: "Gilroy", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -1343,7 +1345,7 @@ padding-right: 24px;
 
 .more-link::before{
   position: absolute;
-  width:220px ;
+  width:260px ;
   height: 8px;
   top: 15px;
   left: 0;
