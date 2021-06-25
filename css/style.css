@@ -56,6 +56,7 @@
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
+
    }
 
 
@@ -464,6 +465,7 @@ text-decoration: none;
   font-size: 47px;
   line-height: 58px;
   color: #000000;
+  padding-left: 105px;
 }
 
 .bread-crumbs li {
@@ -911,17 +913,21 @@ margin-right: 62px;
 .bread-crumbs{
   display: grid;
   grid-template-columns: 10% 15% 15%;
+  padding-left: 107px;
+  padding-bottom: 50px;
 }
 
 .filter1{
   display: grid;
   grid-template-columns: 33% 1fr;
+
 }
 .filter{
     padding-top: 20px;
     background: #E5E5E5;
-    padding-left: 50px;
+    padding-left: 110px;
 }
+
 .filter a:hover{
   background-color: #f0c52e
 }
@@ -935,7 +941,29 @@ margin-right: 62px;
   padding: 0;
   margin: 0;
   padding-bottom: 60px;
-  height: 112px;
+  height: 180px;
+}
+
+.cost-range{
+  padding-top: 91px;
+}
+
+.cost .filter-line{
+  position: relative;
+}
+.colour .filter-line{
+  position: relative;
+}
+.bluetooth .filter-line{
+  position: relative;
+}
+.filter-line::before{
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background: black;
+  bottom: 33px;
 }
 .filter-item{
  padding-top: 39px;
@@ -969,7 +997,8 @@ margin-right: 62px;
 }
 .range-controls .scale{
   height: 2px;
-  background:  #7e7e7e;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.2);
 }
 .price-controls label{
   font-family: "Gilroy";
@@ -1007,18 +1036,20 @@ bottom: 30px;
 .colour{
   border: 0px;
   display: block;
-  height: 345px;
+  height: 270px;
+  padding: 0;
+  margin: 0;
 }
 
 .colour-filter li{
   list-style: none;
-  font-family: Open Sans;
+  font-family: inherit;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
   color: #000000;
-  padding-top: 35px;
+  padding-top: 18px;
 }
 .colour-filter label{
   position: relative;
@@ -1083,23 +1114,27 @@ bottom: 30px;
 .bluetooth{
   border: 0px;
   list-style: none;
-  padding-bottom: 50px;
+  height: 160px;
+  padding: 0;
+  margin: 0;
 
   }
 .bluetooth ul{
-  list-style: none;
+ list-style: none;
 
 }
 .product-cards{
   display: grid;
   grid-template-columns:360px 360px;
   column-gap: 40px;
+  padding-left: 72px;
 }
 
 .sort2{
   display: flex;
   padding-left: 40px;
   padding-right: 30px;
+
 
 }
 .sort3{
@@ -1113,6 +1148,7 @@ bottom: 30px;
   display: flex;
   background: #EBEBEB;
   margin-bottom: 69px;
+
 
 }
 .triangle{
@@ -1152,7 +1188,7 @@ bottom: 30px;
   justify-content: space-between;
   background: #EBEBEB;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 70px;
   padding-left: 20px;
   padding-right: 25px;
   margin-bottom: 75px;
@@ -1366,8 +1402,10 @@ top: 50%;
   position: absolute;
   width:260px ;
   height: 7px;
-  top: 15px;
+  top: 17px;
   left: 0px;
+  right: 0px;
+  bottom: 0px;
   content: "";
   z-index: -1;
   background-color: #f0c52e;
@@ -1376,6 +1414,41 @@ top: 50%;
   background-color: #f0c52e;
 }
 .about-us a:active{
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
+.more-link2{
+  z-index: 1;
+  padding: 8px 40px;
+  position: relative;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+
+}
+.more-link2::before{
+  position: absolute;
+  width:200px ;
+  height: 8px;
+  top: 15px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  content: "";
+  z-index: -1;
+  background-color: #f0c52e;
+}
+.more-link2:hover{
+  background-color: #f0c52e;
+}
+.more-link2:active{
   background-color: #f0c52e;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -1451,5 +1524,39 @@ top: 50%;
   background-image: url("../img/cart-footer3.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+}
+/*.jhgty{
+  height:5.25%;
+  background: linear-gradient(45deg,#DCDCDC,#DCDCDC)
+
+}
+*/
+.dfdgd .add-to-car{
+  position: relative;
+  border: none;
+  box-sizing: border-box;
+  z-index: 1;
+  padding: 8px 35px;
+  width: 200px;
+  height: 8px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.add-to-car::after{
+  position: absolute;
+  content: "";
+  z-index: -1;
+  left: 0;
+  top: 15px;
+  width: 200px;
+  height: 8px;
+  background-color: #f0c52e;
 }
 
