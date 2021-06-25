@@ -924,7 +924,7 @@ margin-right: 62px;
 
 }
 .filter{
-    
+
     padding-left:435px;
     background: #E5E5E5;
 }
@@ -1419,6 +1419,9 @@ top: 50%;
   background-color: #f0c52e;
   color: rgba(0, 0, 0, 0.3);
 }
+.about-us a{
+  padding-left: 25px;
+}
 .more-link2{
   z-index: 1;
   padding: 8px 40px;
@@ -1460,6 +1463,9 @@ top: 50%;
 .map a:active{
   background-color: #f0c52e;
   color: rgba(0, 0, 0, 0.3);
+}
+.map a{
+  padding-left: 40px;
 }
 .about-us-map .line-black{
   position: relative;
